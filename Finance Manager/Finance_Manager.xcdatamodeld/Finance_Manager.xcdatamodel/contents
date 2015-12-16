@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
-    <entity name="Category" representedClassName=".Category" syncable="YES">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="Category" representedClassName=".Category" parentEntity="SyncObject" syncable="YES">
         <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Transaction" inverseName="category" inverseEntity="Transaction" syncable="YES"/>
     </entity>
-    <entity name="Destination" representedClassName=".Destination" parentEntity="Category" syncable="YES">
-        <relationship name="transaction" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Transaction" inverseName="destination" inverseEntity="Transaction" syncable="YES"/>
+    <entity name="Income" representedClassName=".Income" parentEntity="SyncObject" syncable="YES">
+        <attribute name="amount" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="source" maxCount="1" deletionRule="Nullify" destinationEntity="Source" inverseName="incomes" inverseEntity="Source" syncable="YES"/>
     </entity>
-    <entity name="Source" representedClassName=".Source" parentEntity="Category" syncable="YES">
-        <attribute name="balance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <relationship name="transaction" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Transaction" inverseName="source" inverseEntity="Transaction" syncable="YES"/>
+    <entity name="Source" representedClassName=".Source" parentEntity="SyncObject" syncable="YES">
+        <attribute name="balance" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="incomes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Income" inverseName="source" inverseEntity="Income" syncable="YES"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Transaction" inverseName="source" inverseEntity="Transaction" syncable="YES"/>
     </entity>
-    <entity name="Transaction" representedClassName=".Transaction" syncable="YES">
-        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
-        <relationship name="destination" maxCount="1" deletionRule="Nullify" destinationEntity="Destination" inverseName="transaction" inverseEntity="Destination" syncable="YES"/>
-        <relationship name="source" maxCount="1" deletionRule="Nullify" destinationEntity="Source" inverseName="transaction" inverseEntity="Source" syncable="YES"/>
+    <entity name="SyncObject" representedClassName=".SyncObject" isAbstract="YES" syncable="YES">
+        <attribute name="createdAt" attributeType="Date" syncable="YES"/>
+        <attribute name="remoteID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Transaction" representedClassName=".Transaction" parentEntity="SyncObject" syncable="YES">
+        <attribute name="amount" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <relationship name="category" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="transactions" inverseEntity="Category" syncable="YES"/>
+        <relationship name="source" maxCount="1" deletionRule="Nullify" destinationEntity="Source" inverseName="transactions" inverseEntity="Source" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Destination" positionX="115" positionY="395" width="128" height="60"/>
-        <element name="Source" positionX="-270" positionY="414" width="128" height="75"/>
-        <element name="Transaction" positionX="-63" positionY="245" width="128" height="90"/>
-        <element name="Category" positionX="-81" positionY="351" width="128" height="60"/>
+        <element name="Category" positionX="-333" positionY="585" width="128" height="73"/>
+        <element name="Income" positionX="126" positionY="447" width="128" height="73"/>
+        <element name="Source" positionX="133" positionY="585" width="128" height="103"/>
+        <element name="SyncObject" positionX="-74" positionY="284" width="128" height="105"/>
+        <element name="Transaction" positionX="-74" positionY="587" width="128" height="88"/>
     </elements>
 </model>

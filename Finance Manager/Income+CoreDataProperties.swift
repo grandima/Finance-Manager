@@ -1,8 +1,8 @@
 //
-//  Destination+CoreDataProperties.swift
+//  Income+CoreDataProperties.swift
 //  Finance Manager
 //
-//  Created by Dima Medynsky on 09.11.15.
+//  Created by Dima Medynsky on 03.12.15.
 //  Copyright © 2015 Dima Medynsky. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -12,8 +12,9 @@
 import Foundation
 import CoreData
 
-extension Destination {
+extension Income {
 
-    @NSManaged var transaction: NSSet?
+    @NSManaged var amount: NSNumber
+    @NSManaged var source: Source
 
 }

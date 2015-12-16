@@ -26,4 +26,15 @@ class TransactionTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    func configureCell (source source: String, date:NSDate, category:String, amount:NSNumber) {
+        self.sourceLabel.text = source
+
+        let formatter = NSDateFormatter()
+        formatter.dateFormat = "dd.MM 'at' HH:mm"
+        self.dateLabel.text = formatter.stringFromDate(date)
+
+        self.destinationLabel.text = category
+        self.amountLabel.text = amount.stringValue + " UAH"
+    }
+
 }

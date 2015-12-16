@@ -2,7 +2,7 @@
 //  Category+CoreDataProperties.swift
 //  Finance Manager
 //
-//  Created by Dima Medynsky on 09.11.15.
+//  Created by Dima Medynsky on 03.12.15.
 //  Copyright © 2015 Dima Medynsky. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -14,6 +14,7 @@ import CoreData
 
 extension Category {
 
-    @NSManaged var name: String?
+    @NSManaged var name: String
+    @NSManaged var transactions: NSSet?
 
 }
