@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 (navigationController.topViewController as! CoreViewController).managedObjectContext = self.stack.mainContext
             }
         }
-        let statisticsVC = (application.windows[0].rootViewController as! UITabBarController).viewControllers![4] as! StatisticsViewController
+        let statisticsVC = (application.windows[0].rootViewController as! UITabBarController).viewControllers![3] as! StatisticsViewController
         statisticsVC.managedObjectContext = stack.mainContext
 
 //        Defaults.remove(HTTPService.udtoken)

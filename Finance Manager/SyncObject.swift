@@ -28,9 +28,9 @@ class SyncObject: NSManagedObject, JSONRepresentation {
         self.createdAt = SyncService.sharedEngine.dateUsingStringFromAPI(json["created"].string!)
         self.updatedAt = SyncService.sharedEngine.dateUsingStringFromAPI(json["updated"].string!)
         self.remoteID = String(json["id"].intValue)
-        print(self.remoteID)
-        print(self.createdAt)
-        print(updatedAt)
+//        print(self.remoteID)
+//        print(self.createdAt)
+//        print(updatedAt)
     }
 
 }

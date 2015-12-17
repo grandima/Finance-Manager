@@ -40,6 +40,7 @@ extension CategoriesTableViewController: NSFetchedResultsControllerDelegate {
     func addCategory(name: String) {
         _ = Category(context: managedObjectContext, name: name)
         saveContext(managedObjectContext)
+        SyncService.sharedEngine.startSync()
     }
 
     func controllerDidChangeContent(controller: NSFetchedResultsController) {

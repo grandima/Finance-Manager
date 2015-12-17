@@ -25,7 +25,7 @@ struct StatisticsData {
             self.count = count
             self.color = DestType.colors.removeFirst()
         }
-        static var colors: Set<UIColor> = [
+        static var colors: [UIColor] = [
             UIColor(red:1.00, green:0.00, blue:0.00, alpha:1.0),
             UIColor(red:1.00, green:0.42, blue:0.00, alpha:1.0),
             UIColor(red:1.00, green:0.66, blue:0.00, alpha:1.0),

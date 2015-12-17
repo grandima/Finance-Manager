@@ -39,6 +39,6 @@ func += (inout lhs: NSNumber, rhs: Double) {
 
 
 func += (inout lhs: [StatisticsData.DestType], var rhs: StatisticsData.DestType) {
-    rhs.color = StatisticsData.DestType.colors.removeFirst()
+    rhs.color = StatisticsData.DestType.colors[Int(arc4random_uniform(UInt32(StatisticsData.DestType.colors.count)))]
     lhs.append(rhs)
 }

@@ -306,23 +306,23 @@ extension SyncService {
         for className in registeredClassesToSync {
             let lowName = className.lowercaseString
             let group = dispatch_group_create()
+
             let changedObjects = coreDataService.managedObjects(className, syncStatus: nil)
+            print(className)
             for changedObject in changedObjects {
-
-
                 if let block = SyncStatus(rawValue: (changedObject.valueForKey("syncStatus") as! NSNumber).integerValue) {
                     dispatch_group_enter(group)
                     switch block {
                     case .Created:
                         let syncObject = changedObject as! SyncObject
                         let json = syncObject.JSONToCreateObjectOnServer()
-                        print(json)
+                        //print(json)
                         Alamofire.request(HTTPService.POSTRequestForClass(lowName, json: json!)).validate().responseJSON(completionHandler: {[unowned self] (response) -> Void in
                             switch response.result {
                             case .Success:
                                 syncObject.syncStatus = SyncStatus.Synced.rawValue
-                                //print(response.result.value!)
                                 syncObject.remoteID = JSON(response.result.value!)["id"].stringValue
+                                print(syncObject.remoteID)
                                 syncObject.updatedAt = self.dateUsingStringFromAPI(JSON(response.result.value!)["updated"].stringValue)
                             case .Failure:
                                 print(response.description)
@@ -363,11 +363,13 @@ extension SyncService {
                     }
                 }
             }
-            dispatch_group_notify(group, self.backgroundSyncQueue, {[unowned self] () -> Void in
-                saveContext(self.managedObjectContext)
-                self.executeSyncCompletedOperations()
-            })
+            dispatch_group_wait(group, DISPATCH_TIME_FOREVER)
+            saveContext(self.managedObjectContext)
+//            dispatch_group_notify(group, self.backgroundSyncQueue, {[unowned self] () -> Void in
+//                saveContext(self.managedObjectContext)
+//                })
         }
+        executeSyncCompletedOperations()
 
     }
 }

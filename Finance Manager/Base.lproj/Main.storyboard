@@ -16,11 +16,11 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="3bG-ZA-gPF" kind="relationship" relationship="viewControllers" id="ASO-Ww-m4A"/>
                         <segue destination="dXW-zA-E28" kind="relationship" relationship="viewControllers" id="hCU-VU-ZOz"/>
                         <segue destination="pnK-pm-3Qa" kind="relationship" relationship="viewControllers" id="6ae-hG-gE9"/>
                         <segue destination="hpu-eR-4Cw" kind="relationship" relationship="viewControllers" id="92h-lD-ME5"/>
                         <segue destination="CZk-wD-o0I" kind="relationship" relationship="viewControllers" id="E8v-qO-b86"/>
+                        <segue destination="3bG-ZA-gPF" kind="relationship" relationship="viewControllers" id="ASO-Ww-m4A"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jbd-76-2eL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -939,6 +939,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="sssSSTitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vwS-ga-uYV">
+                                                    <rect key="frame" x="15" y="0.0" width="210" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1523,7 +1524,7 @@
         <scene sceneID="xlK-I9-reN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dXW-zA-E28" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Categories" image="categories" id="3VE-Z4-b0G"/>
+                    <tabBarItem key="tabBarItem" title="Categories" image="Categories" id="3VE-Z4-b0G"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="XTK-YD-bfH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1541,7 +1542,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="categories" width="33" height="33"/>
+        <image name="Categories" width="33" height="33"/>
         <image name="pieChart" width="33" height="33"/>
         <image name="plus_math" width="33" height="33"/>
         <image name="sources" width="33" height="33"/>

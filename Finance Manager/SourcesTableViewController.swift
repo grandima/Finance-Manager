@@ -48,12 +48,14 @@ extension SourcesTableViewController: NSFetchedResultsControllerDelegate {
         source.syncStatus = SyncStatus.Updated.rawValue
         //source.updatedAt = income.updatedAt
         saveContext(managedObjectContext)
+        SyncService.sharedEngine.startSync()
     }
     private func addSource(name: String, balance: Double) {
-        print(name,balance)
+        //print(name,balance)
         _ = Source(context: managedObjectContext, balance: NSNumber(double: balance), name: name)
         
         saveContext(managedObjectContext)
+        SyncService.sharedEngine.startSync()
     }
 
     func controllerDidChangeContent(controller: NSFetchedResultsController) {

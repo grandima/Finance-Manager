@@ -44,8 +44,10 @@ class AddTransactionViewController: UITableViewController, NSFetchedResultsContr
         if (self.amountField?.text != nil) {
 
             sourceArray[self.sourcePicker.selectedRowInComponent(0)].balance -= NSNumber(double: (self.amountField.text! as NSString).doubleValue)
+            sourceArray[self.sourcePicker.selectedRowInComponent(0)].syncStatus = SyncStatus.Updated.rawValue
             _ = Transaction(context: managedObjectContext, amount: NSNumber(double: (self.amountField.text! as NSString).doubleValue), category: categoryArray[self.categoryPicker.selectedRowInComponent(0)], source: sourceArray[self.sourcePicker.selectedRowInComponent(0)])
             saveContext(self.managedObjectContext)
+            SyncService.sharedEngine.startSync()
         }
 
         self.navigationController?.popToViewController(
