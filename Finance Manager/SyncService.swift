@@ -197,6 +197,7 @@ extension SyncService {
                     }
                     nullFreeRecords.append(nullFreeRecord)
                 }
+                
                 let nullFreeDictionary = NSDictionary(object: nullFreeRecords, forKey: "results")
                 if(!nullFreeDictionary.writeToFile(fileURL!.path!, atomically: true)) {
                     print("Failed all attempts to save response to disk: \(response)")
