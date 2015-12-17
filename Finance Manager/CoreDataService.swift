@@ -116,7 +116,7 @@ extension CoreDataService {
             }
         }
     }
-//NSFetchRequest(entityName: "Category")
+
     func updateManagedObject(managedObject: NSManagedObject, json: JSON) {
         for (k,v) in json.dictionary! {
             //print(k)
@@ -198,24 +198,6 @@ extension CoreDataService {
         return results
     }
 
-//    func managedObjects(className: String, sortedByKey key: String, idArray: [Double], inIds: Bool) -> [NSManagedObject] {
-//        var results = [NSManagedObject]()
-//        let request = NSFetchRequest(entityName: className)
-//        if inIds {
-//            request.predicate = NSPredicate(format: "balance IN %@", idArray)
-//        }else {
-//            request.predicate = NSPredicate(format: "!(balance IN %@)", idArray)
-//        }
-//        request.sortDescriptors = [NSSortDescriptor(key: "remoteID", ascending: true)]
-//        managedObjectContext.performBlockAndWait { () -> Void in
-//            do {
-//                results = try self.managedObjectContext.executeFetchRequest(request) as! [NSManagedObject]
-//            }catch {
-//                print("Failed to fetch for \(className) \n \(error)")
-//            }
-//        }
-//        return results
-//    }
 
 
 

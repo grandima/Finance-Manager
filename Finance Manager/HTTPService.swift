@@ -63,7 +63,7 @@ struct HTTPService {
     static func POSTRequestForClass(className: String, json: JSON) -> NSMutableURLRequest {
         let request = NSMutableURLRequest(URL: NSURL(string: (httpbaseURL + className + "/"))!)
         do{
-            print(json.dictionaryObject!)
+            //print(json.dictionaryObject!)
             request.HTTPBody = try NSJSONSerialization.dataWithJSONObject(json.dictionaryObject!,options: NSJSONWritingOptions(rawValue: 0))
         }catch {
             print("Cannot serialize \(error)")

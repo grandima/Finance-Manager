@@ -296,7 +296,7 @@ extension SyncService {
                     saveContext(managedObjectContext)
                 }
             }
-        deleteJSONDataRecords(className)
+            deleteJSONDataRecords(className)
         }
         postChangedObjectsToServer()
     }
@@ -365,9 +365,6 @@ extension SyncService {
             }
             dispatch_group_wait(group, DISPATCH_TIME_FOREVER)
             saveContext(self.managedObjectContext)
-//            dispatch_group_notify(group, self.backgroundSyncQueue, {[unowned self] () -> Void in
-//                saveContext(self.managedObjectContext)
-//                })
         }
         executeSyncCompletedOperations()
 
@@ -386,7 +383,6 @@ extension SyncService {
         }
         return dateFormatter.dateFromString(dateString)!
     }
-
     func dateStringForAPIUsingDate(date: NSDate) -> String {
         var dateString = dateFormatter.stringFromDate(date)
         dateString = dateString.substringWithRange(0, location: dateString.characters.count - 1)
