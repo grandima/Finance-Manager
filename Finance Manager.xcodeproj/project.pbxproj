@@ -23,6 +23,7 @@
 		8199A4AD1C1E4310000C54D0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8199A4AC1C1E4310000C54D0 /* String.swift */; };
 		8199A4AF1C1ED973000C54D0 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8199A4AE1C1ED973000C54D0 /* CoreDataService.swift */; };
 		819AB6401C05FA5E0067FBF1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819AB63F1C05FA5E0067FBF1 /* CoreDataStack.swift */; };
+		81AC60481CE123A0002309D4 /* Requests.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81AC60471CE123A0002309D4 /* Requests.txt */; };
 		81C59E261C06093C001D915A /* Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C59E251C06093C001D915A /* Blocks.swift */; };
 		81D413A21BE921B000ECC582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D413A11BE921B000ECC582 /* AppDelegate.swift */; };
 		81D413A71BE921B000ECC582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D413A51BE921B000ECC582 /* Main.storyboard */; };
@@ -69,6 +70,7 @@
 		8199A4AC1C1E4310000C54D0 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		8199A4AE1C1ED973000C54D0 /* CoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		819AB63F1C05FA5E0067FBF1 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		81AC60471CE123A0002309D4 /* Requests.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Requests.txt; sourceTree = "<group>"; };
 		81C59E251C06093C001D915A /* Blocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blocks.swift; sourceTree = "<group>"; };
 		81D4139E1BE921B000ECC582 /* Finance Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finance Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D413A11BE921B000ECC582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 		81D413A01BE921B000ECC582 /* Finance Manager */ = {
 			isa = PBXGroup;
 			children = (
+				81AC60471CE123A0002309D4 /* Requests.txt */,
 				812CF19E1C1754AA0089FE1F /* Controllers */,
 				81D413A11BE921B000ECC582 /* AppDelegate.swift */,
 				81EA30BB1BF005C100731B19 /* Model */,
@@ -352,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AC60481CE123A0002309D4 /* Requests.txt in Resources */,
 				810B67441BF13BAA0040842E /* EmptyTransactionView.xib in Resources */,
 				81D413AF1BE921B000ECC582 /* LaunchScreen.storyboard in Resources */,
 				81D413AC1BE921B000ECC582 /* Assets.xcassets in Resources */,

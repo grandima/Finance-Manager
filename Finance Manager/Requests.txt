@@ -1,0 +1,75 @@
+
+1.login: 
+
+post:
+https://shrouded-everglades-4001.herokuapp.com/api_token/
+
+header:
+["username": "admin", "password": password]
+
+RESPONSE:
+
+["token": AKSLDFJLSAKDJF]
+
+2. sign up:
+post: 
+https://shrouded-everglades-4001.herokuapp.com/users/
+
+header:
+["username": username, "password": password, "email": email]
+
+response:
+
+["token": AKSLDFJLSAKDJF]
+
+3. GET
+
+https://shrouded-everglades-4001.herokuapp.com/category/
+
+Header: 
+["Authorization": "Token 3f33614f46b246b94b8b010b82f41a3d14d8e33b3f33614f46b246b94b8b010b82f41a3d14d8e33b"]
+
+Response:
+
+
+{"count":32,"next":null,"previous":null,"results":[{"id":1,"created":"2015-12-16T23:58:08","updated":"2015-12-16T23:59:43","name":"Sport","user":1}]}
+
+4. POST for entities
+
+4.1 TRANSACTION
+
+URL: https://shrouded-everglades-4001.herokuapp.com/transaction/
+
+HTTP REQUEST BODY: 
+["source": 5, "created": 2016-05-09T19:19:12, "sum": 50, "category": 5]
+
+HTTP HEADERS:
+["Content-Type": "application/json"]
+["Authorization": "Token 3f33614f46b246b94b8b010b82f41a3d14d8e33b3f33614f46b246b94b8b010b82f41a3d14d8e33b"]
+
+4.2. POST for Source
+https://shrouded-everglades-4001.herokuapp.com/source/
+
+All fields are the same as in transaction
+
+HTTP REQUEST BODY: 
+["created": 2016-05-09T19:23:05, "balance": 300, "name": S2]
+
+4.3. POST FOR CATEGORY
+
+URL: https://shrouded-everglades-4001.herokuapp.com/category/
+
+["created": 2016-05-09T19:34:32, "name": GROC23]
+
+4.4. POST FOR INCOME 
+
+URL: https://shrouded-everglades-4001.herokuapp.com/income/
+
+["sum": 100, "created": 2016-05-09T19:35:31, "source": 12]
+
+5. RESPONSE FOR POST REQUEST
+
+{
+    id = 11;
+    updated = "2016-05-09T19:54:54";
+}
