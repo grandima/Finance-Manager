@@ -57,7 +57,7 @@ class StatisticsViewController: UIViewController {
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-
+        
         if(isLoggedIn) {
             EZLoadingActivity.show("Loading...", disableUI: false)
             fetchAllData()

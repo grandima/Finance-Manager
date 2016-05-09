@@ -76,8 +76,10 @@ extension SignUpViewController {
         //TODO: Handle network avaliability and return codes
         let params = ["username": username, "password": password, "email": email]
         let url = HTTPService.httpbaseURL + HTTPService.httpsignUp
+        //print(url)
         Alamofire.request(.POST, url, parameters: params).validate()
             .responseJSON { [unowned self] response in
+                print(response.request?.URL?.absoluteString)
                 switch response.result {
                 case .Success:
                     let responseJSON = JSON(data: response.data!)

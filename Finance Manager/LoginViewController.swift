@@ -74,12 +74,15 @@ extension LoginViewController {
         //TODO: Handle network avaliability and return codes
         let params = ["username": username, "password": password]
         let url = HTTPService.httpbaseURL + HTTPService.httpapiToken
+        //print(url)
         Alamofire.request(.POST, url, parameters: params).validate()
             .responseJSON { [unowned self] response in
+//                print(response.request?.URL?.absoluteString)
             switch response.result {
                 case .Success:
                     let responseJSON = JSON(data: response.data!)
                     Defaults[HTTPService.udtoken] = responseJSON[HTTPService.jsonapiToken].string
+                    print(responseJSON[HTTPService.jsonapiToken].string)
                     Defaults[HTTPService.udisLoggedIn] = true
                     dispatch_async(dispatch_get_main_queue(), { [unowned self]() -> Void in
                         weakActivityView!.hidden = true

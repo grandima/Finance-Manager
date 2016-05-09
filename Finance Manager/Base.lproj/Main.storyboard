@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GrZ-jG-1Nq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GrZ-jG-1Nq">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -50,26 +50,35 @@
                                             <rect key="frame" x="0.0" y="0.0" width="240" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="h1Q-4b-rnz">
+                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="h1Q-4b-rnz">
                                                     <rect key="frame" x="24" y="-12" width="127" height="123"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8e2-dC-ZTM">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8e2-dC-ZTM">
                                                             <rect key="frame" x="0.0" y="0.0" width="54" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="0.036772804630000003" green="1" blue="0.16556532530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
+                                                            <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                                <rect key="frame" x="0.0" y="0.0" width="54" height="21"/>
+                                                            </variation>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="26.10.1994" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfh-ai-wQC">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="26.10.1994" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfh-ai-wQC">
                                                             <rect key="frame" x="62" y="0.0" width="85" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
+                                                            <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                                <rect key="frame" x="0.0" y="29" width="85" height="21"/>
+                                                            </variation>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Destination" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhI-E4-llt">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Destination" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhI-E4-llt">
                                                             <rect key="frame" x="155" y="0.0" width="87" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="1" green="0.0" blue="0.09413745623" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
+                                                            <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                                <rect key="frame" x="0.0" y="57" width="87" height="21"/>
+                                                            </variation>
                                                         </label>
                                                     </subviews>
                                                     <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical" misplaced="YES">
@@ -429,7 +438,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gXg-hc-lv7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117" y="2493.75"/>
+            <point key="canvasLocation" x="-1062" y="2493.75"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="7lQ-jh-14h">
@@ -661,7 +670,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xQb-PC-HbB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="921" y="2493.75"/>
+            <point key="canvasLocation" x="-258" y="2493.75"/>
         </scene>
         <!--Add transaction-->
         <scene sceneID="Uuw-iL-oJL">
@@ -1392,23 +1401,31 @@
                                                         <action selector="addMoneyButtonPressed:" destination="G7y-bb-oYg" eventType="touchUpInside" id="CZ7-Bb-77J"/>
                                                     </connections>
                                                 </button>
-                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3AI-gS-X1f">
+                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3AI-gS-X1f">
                                                     <rect key="frame" x="-12" y="-12" width="165" height="105"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Source name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00r-uh-kbt">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Source name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00r-uh-kbt">
                                                             <rect key="frame" x="0.0" y="0.0" width="101" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
+                                                            <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                                <rect key="frame" x="0.0" y="0.0" width="101" height="21"/>
+                                                            </variation>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Balance: 7230 ₴" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0G-0w-A56">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Balance: 7230 ₴" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0G-0w-A56">
                                                             <rect key="frame" x="121" y="0.0" width="125" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="0.015686274509803921" green="0.50196078431372548" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
+                                                            <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                                <rect key="frame" x="0.0" y="41" width="125" height="21"/>
+                                                            </variation>
                                                         </label>
                                                     </subviews>
-                                                    <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical" misplaced="YES">
+                                                        <rect key="frame" x="16" y="-161" width="125" height="61"/>
+                                                    </variation>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
@@ -1499,7 +1516,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HqY-cV-xum" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1215" y="862.5"/>
+            <point key="canvasLocation" x="936" y="855.75"/>
         </scene>
         <!--Transactions-->
         <scene sceneID="xOO-S5-2cE">
@@ -1538,7 +1555,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mjf-TY-Ouq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-84" y="113.25"/>
+            <point key="canvasLocation" x="-84" y="143.25"/>
         </scene>
     </scenes>
     <resources>

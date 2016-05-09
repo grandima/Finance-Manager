@@ -153,6 +153,7 @@ extension SyncService {
             if (mostRecentUpdatedDate != nil) {
                 mostRecentUpdatedDate = mostRecentUpdatedDate!.dateByAddingTimeInterval(1)
             }
+            //print(HTTPService.GETRequestForAllRecordsOfClass(className.lowercaseString, updatedAfter: mostRecentUpdatedDate).URL?.absoluteURL.absoluteString)
             Alamofire.request(HTTPService.GETRequestForAllRecordsOfClass(className.lowercaseString, updatedAfter: mostRecentUpdatedDate)).validate().responseJSON(completionHandler: { (response) -> Void in
                 switch response.result {
                 case .Success:
@@ -269,7 +270,7 @@ extension SyncService {
                             }else {
                                 coreDataService.newManagedObject(className, json: JSON(record))
                             }
-                            currentIndex++
+                            currentIndex += 1
                         }
 
                     }
@@ -291,7 +292,7 @@ extension SyncService {
                     }
                     let storedRecords = coreDataService.managedObjects(className, sortedByKey: "remoteID", idArray: strings, inIds: false)
                     for record in storedRecords {
-                        print(record.valueForKey("remoteID"))
+                        //print(record.valueForKey("remoteID"))
                     }
                     //for managedObject in storedRecords { managedObjectContext.deleteObject(managedObject)}
                     saveContext(managedObjectContext)
@@ -309,7 +310,7 @@ extension SyncService {
             let group = dispatch_group_create()
 
             let changedObjects = coreDataService.managedObjects(className, syncStatus: nil)
-            print(className)
+            //print(className)
             for changedObject in changedObjects {
                 if let block = SyncStatus(rawValue: (changedObject.valueForKey("syncStatus") as! NSNumber).integerValue) {
                     dispatch_group_enter(group)
@@ -317,13 +318,14 @@ extension SyncService {
                     case .Created:
                         let syncObject = changedObject as! SyncObject
                         let json = syncObject.JSONToCreateObjectOnServer()
-                        //print(json)
+                        print(HTTPService.POSTRequestForClass(lowName, json: json!))
                         Alamofire.request(HTTPService.POSTRequestForClass(lowName, json: json!)).validate().responseJSON(completionHandler: {[unowned self] (response) -> Void in
                             switch response.result {
                             case .Success:
+                                print(response.result.value!)
                                 syncObject.syncStatus = SyncStatus.Synced.rawValue
                                 syncObject.remoteID = JSON(response.result.value!)["id"].stringValue
-                                print(syncObject.remoteID)
+                                //print(syncObject.remoteID)
                                 syncObject.updatedAt = self.dateUsingStringFromAPI(JSON(response.result.value!)["updated"].stringValue)
                             case .Failure:
                                 print(response.description)

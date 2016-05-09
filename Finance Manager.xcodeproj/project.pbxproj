@@ -249,10 +249,10 @@
 		81DC77581BFE677500D7D550 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				8172BA991C15EC4700B370E3 /* StatisticsService.swift */,
-				81E60F681C18BEFA00DD1DA6 /* HTTPService.swift */,
 				8199A4AE1C1ED973000C54D0 /* CoreDataService.swift */,
+				81E60F681C18BEFA00DD1DA6 /* HTTPService.swift */,
 				8178DF841C1DF6A4005FF3E5 /* SyncService.swift */,
+				8172BA991C15EC4700B370E3 /* StatisticsService.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";

@@ -47,6 +47,7 @@ struct HTTPService {
 
         let token = Defaults[udtoken].stringValue
         request.allHTTPHeaderFields!["Authorization"] =  "Token " + token
+        //print(request.URL?.absoluteString)
         return request
     }
 
@@ -57,6 +58,7 @@ struct HTTPService {
             return GETRequestForClass(className, parameters: parameters)
         }
         let request = GETRequestForClass(className, parameters: nil)
+        //print(request.URL?.absoluteString)
         return request
     }
 
@@ -71,6 +73,7 @@ struct HTTPService {
         request.HTTPMethod = "POST"
         request.allHTTPHeaderFields = ["Content-Type": "application/json"]
         request.allHTTPHeaderFields!["Authorization"] = "Token " + Defaults[udtoken].stringValue
+        //print(request.URL?.absoluteString)
         return request
 
     }
@@ -85,6 +88,7 @@ struct HTTPService {
         request.HTTPMethod = "PATCH"
         request.allHTTPHeaderFields = ["Content-Type": "application/json"]
         request.allHTTPHeaderFields!["Authorization"] = "Token " + Defaults[udtoken].stringValue
+        //print(request.URL?.absoluteString)
         return request
 
     }
@@ -93,6 +97,7 @@ struct HTTPService {
         let request = NSMutableURLRequest(URL: NSURL(string: (httpbaseURL + className + "/" + objectId + "/"))!)
         request.HTTPMethod = "DELETE"
         request.allHTTPHeaderFields!["Authorization"] = "Token " + Defaults[udtoken].stringValue
+        //print(request.URL?.absoluteString)
         return request
     }
 }
