@@ -155,6 +155,7 @@ extension SyncService {
             }
             //print(HTTPService.GETRequestForAllRecordsOfClass(className.lowercaseString, updatedAfter: mostRecentUpdatedDate).URL?.absoluteURL.absoluteString)
             Alamofire.request(HTTPService.GETRequestForAllRecordsOfClass(className.lowercaseString, updatedAfter: mostRecentUpdatedDate)).validate().responseJSON(completionHandler: { (response) -> Void in
+                //print(response.request?.URLString)
                 switch response.result {
                 case .Success:
                     self.writeJSONResponse(response.result.value! as! [String : AnyObject], className: className)
@@ -340,6 +341,7 @@ extension SyncService {
                         let json = syncObject.JSONToCreateObjectOnServer()
                         Alamofire.request(HTTPService.PATCHRequestForClass(lowName,objectId: syncObject.remoteID!, json: json!)).validate().responseJSON(completionHandler: { (response) -> Void in
                             switch response.result {
+                                
                             case .Success:
                                 syncObject.syncStatus = SyncStatus.Synced.rawValue
                                 syncObject.updatedAt = self.dateUsingStringFromAPI(JSON(response.result.value!)["updated"].stringValue)

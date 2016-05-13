@@ -73,3 +73,31 @@ URL: https://shrouded-everglades-4001.herokuapp.com/income/
     id = 11;
     updated = "2016-05-09T19:54:54";
 }
+
+6. GET REQUEST FOR DATE
+
+URL: https://shrouded-everglades-4001.herokuapp.com/source/?updated=2016-05-09%2019:54:54
+
+Header:
+["Authorization": "Token 3f33614f46b246b94b8b010b82f41a3d14d8e33b3f33614f46b246b94b8b010b82f41a3d14d8e33b"]
+
+RESPONSE: The same as in GET REQUEST
+
+7. PATCH
+
+URL: https://shrouded-everglades-4001.herokuapp.com/income/5/
+
+HTTP HEADER FIELDS The same as in POST
+
+HTTP BODY THE same as in POST
+
+RESPONSE: The same as in POST
+
+8. DELETE
+URL: https://shrouded-everglades-4001.herokuapp.com/income/5/
+
+Header:
+["Authorization": "Token 3f33614f46b246b94b8b010b82f41a3d14d8e33b3f33614f46b246b94b8b010b82f41a3d14d8e33b"]
+
+RESPONSE: SUCCESS
+

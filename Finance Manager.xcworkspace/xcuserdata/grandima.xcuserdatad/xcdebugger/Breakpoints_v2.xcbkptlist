@@ -708,11 +708,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "167"
-            endingLineNumber = "167"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "downloadDataForRegisteredObjects(useUpdatedAtDate:toDeleteLocalRecords:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -836,11 +836,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "212"
-            endingLineNumber = "212"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "SyncService"
             landmarkType = "3">
          </BreakpointContent>
@@ -900,23 +900,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "230"
-            endingLineNumber = "230"
-            landmarkName = "JSONDataRecordsForClass(_:sortedByKey:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "231"
@@ -932,7 +916,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "232"
@@ -948,11 +932,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "229"
-            endingLineNumber = "229"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "JSONDataRecordsForClass(_:sortedByKey:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Finance Manager/SyncService.swift"
+            timestampString = "484815207.178542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
             landmarkName = "SyncService"
             landmarkType = "3">
          </BreakpointContent>
@@ -1012,11 +1012,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
             landmarkName = "downloadDataForRegisteredObjects(useUpdatedAtDate:toDeleteLocalRecords:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -1028,7 +1028,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "writeJSONResponse(_:className:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Finance Manager/SyncService.swift"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "199"
@@ -1044,39 +1060,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "198"
-            endingLineNumber = "198"
-            landmarkName = "writeJSONResponse(_:className:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
-            landmarkName = "JSONDictionaryForClass(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "228"
@@ -1092,11 +1076,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "264"
-            endingLineNumber = "264"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "JSONDictionaryForClass(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Finance Manager/SyncService.swift"
+            timestampString = "484815207.178542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1108,11 +1108,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "256"
-            endingLineNumber = "256"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1140,11 +1140,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1156,11 +1156,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "251"
-            endingLineNumber = "251"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1172,11 +1172,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "253"
-            endingLineNumber = "253"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1204,11 +1204,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "254"
-            endingLineNumber = "254"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1236,11 +1236,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "255"
-            endingLineNumber = "255"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1252,11 +1252,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "260"
-            endingLineNumber = "260"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1268,27 +1268,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "262"
-            endingLineNumber = "262"
-            landmarkName = "processJSONDataRecordsIntoCoreData()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "263"
             endingLineNumber = "263"
+            landmarkName = "processJSONDataRecordsIntoCoreData()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Finance Manager/SyncService.swift"
+            timestampString = "484815207.178542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1348,11 +1348,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "381"
-            endingLineNumber = "381"
+            startingLineNumber = "382"
+            endingLineNumber = "382"
             landmarkName = "SyncService"
             landmarkType = "3">
          </BreakpointContent>
@@ -1380,11 +1380,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "268"
-            endingLineNumber = "268"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1396,11 +1396,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "287"
-            endingLineNumber = "287"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
             landmarkName = "processJSONDataRecordsForDeletion()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1412,11 +1412,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "243"
-            endingLineNumber = "243"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1428,11 +1428,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "323"
-            endingLineNumber = "323"
+            startingLineNumber = "324"
+            endingLineNumber = "324"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1460,11 +1460,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "333"
-            endingLineNumber = "333"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1540,11 +1540,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "360"
-            endingLineNumber = "360"
+            startingLineNumber = "361"
+            endingLineNumber = "361"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1556,11 +1556,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "347"
-            endingLineNumber = "347"
+            startingLineNumber = "348"
+            endingLineNumber = "348"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1572,11 +1572,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "331"
-            endingLineNumber = "331"
+            startingLineNumber = "332"
+            endingLineNumber = "332"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1588,11 +1588,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "266"
-            endingLineNumber = "266"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1716,11 +1716,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
             landmarkName = "downloadDataForRegisteredObjects(useUpdatedAtDate:toDeleteLocalRecords:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -1732,11 +1732,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "245"
-            endingLineNumber = "245"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1748,11 +1748,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "242"
-            endingLineNumber = "242"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1764,11 +1764,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "252"
-            endingLineNumber = "252"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1796,11 +1796,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "271"
-            endingLineNumber = "271"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
             landmarkName = "processJSONDataRecordsIntoCoreData()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1940,11 +1940,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "288"
-            endingLineNumber = "288"
+            startingLineNumber = "289"
+            endingLineNumber = "289"
             landmarkName = "processJSONDataRecordsForDeletion()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1956,11 +1956,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "290"
-            endingLineNumber = "290"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
             landmarkName = "processJSONDataRecordsForDeletion()"
             landmarkType = "5">
             <Locations>
@@ -2004,11 +2004,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "297"
-            endingLineNumber = "297"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
             landmarkName = "processJSONDataRecordsForDeletion()"
             landmarkType = "5">
          </BreakpointContent>
@@ -2036,11 +2036,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "327"
-            endingLineNumber = "327"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -2052,23 +2052,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "329"
-            endingLineNumber = "329"
-            landmarkName = "postChangedObjectsToServer()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "330"
@@ -2084,11 +2068,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "326"
-            endingLineNumber = "326"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -2100,11 +2084,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "344"
-            endingLineNumber = "344"
+            startingLineNumber = "327"
+            endingLineNumber = "327"
+            landmarkName = "postChangedObjectsToServer()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Finance Manager/SyncService.swift"
+            timestampString = "484815207.178542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -2148,11 +2148,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "339"
-            endingLineNumber = "339"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -2164,11 +2164,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "359"
-            endingLineNumber = "359"
+            startingLineNumber = "360"
+            endingLineNumber = "360"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -2180,11 +2180,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "341"
-            endingLineNumber = "341"
+            startingLineNumber = "342"
+            endingLineNumber = "342"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
             <Locations>
@@ -2228,11 +2228,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "342"
-            endingLineNumber = "342"
+            startingLineNumber = "343"
+            endingLineNumber = "343"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -2244,7 +2244,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "322"
+            endingLineNumber = "322"
+            landmarkName = "postChangedObjectsToServer()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Finance Manager/SyncService.swift"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "321"
@@ -2260,7 +2276,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
+            timestampString = "484815207.178542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "327"
+            endingLineNumber = "327"
+            landmarkName = "postChangedObjectsToServer()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Finance Manager/SyncService.swift"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "320"
@@ -2276,43 +2308,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "326"
-            endingLineNumber = "326"
-            landmarkName = "postChangedObjectsToServer()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350677.098836"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "319"
-            endingLineNumber = "319"
-            landmarkName = "postChangedObjectsToServer()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484516476.955674"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "340"
-            endingLineNumber = "340"
+            startingLineNumber = "341"
+            endingLineNumber = "341"
             landmarkName = "postChangedObjectsToServer()"
             landmarkType = "5">
          </BreakpointContent>
@@ -2500,7 +2500,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "483350658.56656"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "157"
@@ -2516,12 +2516,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Finance Manager/SyncService.swift"
-            timestampString = "484514230.673821"
+            timestampString = "484815207.178542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "322"
-            endingLineNumber = "322"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
             landmarkName = "postChangedObjectsToServer()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Finance Manager/SyncService.swift"
+            timestampString = "484815168.783411"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "downloadDataForRegisteredObjects(useUpdatedAtDate:toDeleteLocalRecords:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
