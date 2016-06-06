@@ -47,14 +47,6 @@ enum SyncNotification: String {
 enum SyncStatus: Int {
     case Created = 0, Deleted = 1, Updated = 2, Synced = 3
 
-//    func getResponseClosure () -> ((Response<NSDictionary, NSError>) -> Void) {
-//        switch self {
-//        case .Created:
-//            return {(response) -> Void in
-//                response.
-//                }
-//        }
-//    }
 }
 class SyncService {
 
@@ -364,7 +356,10 @@ extension SyncService {
                             dispatch_group_leave(group)
                         })
                     default:
+                        let syncObject = changedObject as! SyncObject
                         print("Sneaked syncedObject")
+                        print (syncObject.syncStatus)
+                        dispatch_group_leave(group)
                     }
                 }
             }

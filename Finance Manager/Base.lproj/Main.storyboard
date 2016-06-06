@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GrZ-jG-1Nq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GrZ-jG-1Nq">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -496,14 +496,6 @@
                                                     <outlet property="delegate" destination="CHB-SF-f95" id="so6-Tm-w8D"/>
                                                 </connections>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HT0-Jw-gcC">
-                                                <rect key="frame" x="20" y="73" width="220" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                                <connections>
-                                                    <outlet property="delegate" destination="CHB-SF-f95" id="IZm-Ia-YfM"/>
-                                                </connections>
-                                            </textField>
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="72v-U7-VmE"/>
@@ -664,7 +656,6 @@
                     <connections>
                         <outlet property="activityView" destination="IIe-EQ-elT" id="hJT-fd-xkN"/>
                         <outlet property="emailTF" destination="ReK-MW-EbF" id="Za4-Zd-ESn"/>
-                        <outlet property="passwordTF" destination="HT0-Jw-gcC" id="WMJ-nM-aEu"/>
                         <outlet property="userNameTF" destination="UP6-Y8-G2c" id="n2J-j9-R7H"/>
                     </connections>
                 </viewController>
@@ -951,7 +942,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="210" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
@@ -1031,7 +1022,7 @@
                                     <constraint firstAttribute="width" constant="119" id="MSW-es-T7d"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -1052,7 +1043,7 @@
                                     <constraint firstAttribute="height" constant="21" id="zli-L8-gKf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">

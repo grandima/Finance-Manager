@@ -11,13 +11,13 @@ import SwiftValidator
 import Alamofire
 import SwiftyJSON
 import SwiftyUserDefaults
-class LoginViewController: UIViewController {
+class LoginViewController: CoreViewController {
 
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var activityView: UIView!
 
-    let httpService = HTTPService()
+    //let httpService = HTTPService()
     let validator = Validator()
 
     override func viewDidLoad() {
@@ -31,6 +31,17 @@ class LoginViewController: UIViewController {
         passwordTextField.returnKeyType = .Done
 
     }
+    
+    override func viewDidAppear(animated: Bool) {
+        //super.viewDidAppear(animated)
+        
+        if (isLoggedIn) {
+            self.dismissViewControllerAnimated(true, completion: nil)
+        } else {
+            //self.usernameLabel.text = prefs.valueForKey("USERNAME") as? String
+        }
+    }
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         userNameTextField.becomeFirstResponder()

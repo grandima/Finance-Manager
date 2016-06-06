@@ -19,13 +19,41 @@ struct StatisticsData {
     struct DestType{
         var name: String
         var count: Double
-        var color: UIColor
+        var color: UIColor!
         init(name: String = String(),count: Double = 0.0) {
             self.name = name
             self.count = count
-            self.color = DestType.colors.removeFirst()
+            //self.color = DestType.colors.removeFirst()
         }
-        static var colors: [UIColor] = [
+        
+        static let privateColors = [
+            UIColor(red:1.00, green:0.00, blue:0.00, alpha:1.0),
+            UIColor(red:1.00, green:0.42, blue:0.00, alpha:1.0),
+            UIColor(red:1.00, green:0.66, blue:0.00, alpha:1.0),
+            UIColor(red:1.00, green:0.90, blue:0.00, alpha:1.0),
+            UIColor(red:0.80, green:1.00, blue:0.00, alpha:1.0),
+            UIColor(red:0.50, green:1.00, blue:0.00, alpha:1.0),
+            UIColor(red:0.08, green:1.00, blue:0.00, alpha:1.0),
+            UIColor(red:0.00, green:1.00, blue:0.82, alpha:1.0),
+            UIColor(red:0.00, green:0.94, blue:1.00, alpha:1.0),
+            UIColor(red:0.00, green:0.58, blue:1.00, alpha:1.0),
+            UIColor(red:0.00, green:0.28, blue:1.00, alpha:1.0),
+            UIColor(red:0.02, green:0.00, blue:1.00, alpha:1.0),
+            UIColor(red:0.02, green:0.00, blue:1.00, alpha:1.0),
+            UIColor(red:0.62, green:0.00, blue:1.00, alpha:1.0),
+            UIColor(red:0.62, green:0.00, blue:1.00, alpha:1.0),
+            UIColor(red:1.00, green:0.00, blue:0.84, alpha:1.0),
+            UIColor(red:1.00, green:0.00, blue:0.36, alpha:1.0)]
+        
+        static var _colors: [UIColor] = []
+//        static var colors: [UIColor] {
+//            get {
+//                if (privateColors.count == 0) {
+//                    _colors = privateColors
+//                }
+//            }
+//        }
+        static let colors: [UIColor] = [
             UIColor(red:1.00, green:0.00, blue:0.00, alpha:1.0),
             UIColor(red:1.00, green:0.42, blue:0.00, alpha:1.0),
             UIColor(red:1.00, green:0.66, blue:0.00, alpha:1.0),

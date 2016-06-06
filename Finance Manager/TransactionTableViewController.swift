@@ -71,8 +71,8 @@ extension TransactionTableViewController: NSFetchedResultsControllerDelegate {
 
     private func prefetchEssentialEntites() {
         do {
-            try sources.appendContentsOf(Source.fetchAllObjects(managedObjectContext: managedObjectContext) as! [Source])
-            try categories.appendContentsOf( Category.fetchAllObjects(managedObjectContext: managedObjectContext) as! [Category])
+            try sources = Source.fetchAllObjects(managedObjectContext: managedObjectContext) as! [Source]
+            try categories = Category.fetchAllObjects(managedObjectContext: managedObjectContext) as! [Category]
         }
         catch {
             print(error)

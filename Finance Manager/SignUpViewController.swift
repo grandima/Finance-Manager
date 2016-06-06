@@ -77,20 +77,21 @@ extension SignUpViewController {
         let params = ["username": username, "password": password, "email": email]
         let url = HTTPService.httpbaseURL + HTTPService.httpsignUp
         //print(url)
-        Alamofire.request(.POST, url, parameters: params).validate()
+        Alamofire.request(.POST, url, parameters: params)
             .responseJSON { [unowned self] response in
                 print(response.request?.URL?.absoluteString)
                 switch response.result {
                 case .Success:
                     let responseJSON = JSON(data: response.data!)
-
-                    Defaults[HTTPService.udtoken] = responseJSON[HTTPService.jsonapiToken]
-                    Defaults[HTTPService.udisLoggedIn] = true
-
+                    
                     dispatch_async(dispatch_get_main_queue(), { [unowned self]() -> Void in
-                        print(NSThread.currentThread().name)
+                        
+                        Defaults[HTTPService.udtoken] = responseJSON[HTTPService.registrationToken].string
+                        Defaults[HTTPService.udisLoggedIn] = true
+                        //print(NSThread.currentThread().name)
                         weakActivityView!.hidden = true
-                        self.presentingViewController!.dismissViewControllerAnimated(true, completion: nil)
+                        self.dismissViewControllerAnimated(true, completion: nil)
+                        
                         })
                     //TODO: Handle this error
                 case .Failure(let error):

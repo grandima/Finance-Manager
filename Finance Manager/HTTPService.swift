@@ -14,10 +14,10 @@ struct HTTPService {
 
     static let httpbaseURL = "https://shrouded-everglades-4001.herokuapp.com/"
     static let httpapiToken = "api_token/"
-    static let httpsignUp = "users/"
+    static let httpsignUp = "user/"
 
     static let jsonapiToken = "token"
-
+    static let registrationToken = "auth_token"
     static let udisLoggedIn = "isLoggedIn"
     static let udtoken = "token"
     static let udexpirationDate = "expiresAt"

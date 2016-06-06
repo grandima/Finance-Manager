@@ -17,6 +17,7 @@ class StatisticsCollectionViewCell: UICollectionViewCell, ChartViewDelegate {
 
     var dataSource: StatisticsData?
 
+    var colors = StatisticsData.DestType.colors
     func configureCell(dataSource: StatisticsData) {
         self.dataSource = dataSource
         self.configureChart()
@@ -47,7 +48,10 @@ class StatisticsCollectionViewCell: UICollectionViewCell, ChartViewDelegate {
 
         let dataPoints = dataSource!.destinations.map {$0.name}
         let dataSet = PieChartDataSet(yVals: dataEntries, label: "Spend destinations")
-        dataSet.colors = dataSource!.destinations.map{$0.color}
+        for i in 0..<dataSource!.destinations.count {
+            dataSet.colors.append(dataSource!.dynamicType.DestType.colors[i])
+        }
+        //dataSet.colors = dataSource!.destinations.map{$0.color}
 
         let pieChartData = PieChartData(xVals: dataPoints, dataSet: dataSet)
         chartView.extraTopOffset = 45
